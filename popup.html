@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Disable Readonly Inputs</title>
+  <style>
+    body {
+      width: 200px;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 5px;
+    }
+    #status {
+      margin-top: 10px;
+      font-size: 14px;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+<h5>Readonly</h5>
+  <button id="disableReadonlyBtn">Deshabilitar</button>
+  <button id="enableReadonlyBtn">Habilitar</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
